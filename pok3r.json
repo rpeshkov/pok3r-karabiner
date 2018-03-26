@@ -6,7 +6,10 @@
             "manipulators": [
                 {
                     "type": "basic",
-                    "from": { "key_code": "right_option" },
+                    "from": {
+                        "key_code": "right_option",
+                        "modifiers": { "optional": [ "any" ]}
+                    },
                     "to": [{ "key_code": "fn" }]
                 }
             ]
@@ -204,6 +207,14 @@
                         "modifiers": { "mandatory": ["fn"], "optional": ["any"] }
                     },
                     "to": [{ "key_code": "f9" }]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "0",
+                        "modifiers": { "mandatory": [ "fn" ], "optional": [ "any" ] }
+                    },
+                    "to": [ { "key_code": "f10" } ]
                 },
                 {
                     "type": "basic",

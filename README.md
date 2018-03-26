@@ -7,7 +7,7 @@ Full readme is coming.
 - Copy pok3r.json file to your `~/.config/karabiner/assets/complex-modifications` folder.
 - Open karabiner and add rules on complex modifications tab
 
-Choose one of this rules for defining modifiers
+Choose one of this rules for defining modifiers:
 
 - Pok3r: Right option to fn
 - Pok3r: Caps to Fn
@@ -15,4 +15,4 @@ Choose one of this rules for defining modifiers
 
 ## Known issues
 
-- When using right option as modifier, option+arrows combinations are not working
+- When using right_option as fn, left_option+arrows (i/j/k/l) don't work. Happens only on mac keyboard. On my Genius keyboard works fine.
